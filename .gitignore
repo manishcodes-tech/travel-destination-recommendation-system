@@ -1,0 +1,60 @@
+
+# Node dependencies
+node_modules/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary development scripts
+scratch/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary development files
+scratch/
+
+# Private development notes
+CHATGPT_REVIEW_PROMPT.md

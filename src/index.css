@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-900: #152912;
+  --color-forest-800: #1E3C1B;
+  --color-forest-700: #2D5A27;
+  --color-forest-600: #3E7936;
+  --color-forest-500: #549A4B;
+  --color-forest-100: #E8F3E6;
+  --color-forest-50: #F4F8F3;
+  --color-emerald-accent: #4ADE80;
+  --color-emerald-soft: #86EFAC;
+  --color-emerald-subtle: #DCFCE7;
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  --primary-forest: #2D5A27;
+  --primary-forest-dark: #1E3C1B;
+  --accent-emerald: #4ADE80;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  color: #1E293B;
+  background-color: #FAFBFB;
+  min-height: 100vh;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Smooth glass effect */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-forest {
+  background: rgba(45, 90, 39, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
